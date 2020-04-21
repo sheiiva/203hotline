@@ -23,12 +23,14 @@ Your second task is to compare the binomial and Poisson distributions, given the
 ## USAGE:
 
 ```
->> ./203hotline [n k | d]
-```
+>> ./203hotline -h
+USAGE
+	./203hotline [n k | d]
 
-#### DESCRIPTION
-* n       value for the computation of C(n, k)
-* k       k value for the computation of C(n, k)
-* d       average duration of calls (in seconds)
+DESCRIPTION
+	n	n value for the computation of C(n, k)
+	k	k value for the computation of C(n, k)
+	d	average duration of calls (in seconds)
+```
 
 Author [**Corentin COUTRET-ROZET**](https://github.com/sheiiva) and [**PATRICIA MONFA-MATAS**](https://github.com/patumm)
